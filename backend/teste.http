@@ -1,0 +1,40 @@
+### teste da rota raiz
+GET  http://localhost:3000
+Content-Type: application/json
+
+### teste de cadastro funcionario
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "abel@gmail.com",
+    "senha": "hbjcajbjn"
+}
+
+### teste de cadastro funcionario
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "jonas@gmail.com",
+    "senha": "hbjcajbjn"
+}
+
+### teste de cadastro funcionario
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "jair@gmail.com",
+    "senha": "hbjcajbjn"
+}
+
+### fazer login
+# @name loginReq
+POST  http://localhost:3000/login 
+Content-Type: application/javascript
+
+{
+    "email": "abel@gmail.com",
+    "senha": "hbjcajbjn"
+}
